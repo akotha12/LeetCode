@@ -4,8 +4,6 @@ class Solution(object):
             return False
         s = sorted(s)
         t = sorted(t)
-        print(s)
-        print(t)
         if s == t:
             return True
         return False
