@@ -13,7 +13,6 @@ class Solution(object):
         print(tmp);
         for value in tmp:
             output.append(int(value[0]))
-        print(output)
         return output
         """
         :type nums: List[int]
