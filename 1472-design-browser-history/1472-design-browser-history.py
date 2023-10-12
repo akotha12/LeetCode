@@ -14,8 +14,7 @@ class BrowserHistory(object):
         :type url: str
         :rtype: None
         """
-        temp = self.history[0:self.counter + 1]
-        self.history = temp
+        self.history = self.history[0:self.counter + 1]
         self.history.append(url)
         self.counter += 1
         self.len = len(self.history)
