@@ -17,7 +17,7 @@ class BrowserHistory(object):
         self.history = self.history[0:self.counter + 1]
         self.history.append(url)
         self.counter += 1
-        self.len = len(self.history)
+        self.len = self.counter + 1
         
 
     def back(self, steps):
